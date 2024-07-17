@@ -9,7 +9,8 @@ log_filepath = os.path.join(log_dir,"running_logs.log")
 os.makedirs(log_dir, exist_ok=True)
 
 
-logging.basicConfig(
+try:
+    logging.basicConfig(
     level= logging.INFO,
     format= logging_str,
 
@@ -17,6 +18,8 @@ logging.basicConfig(
         logging.FileHandler(log_filepath),
         logging.StreamHandler(sys.stdout)
     ]
-)
+    )
+except PermissionError:
+    print("permission got resolved")
 
 logger = logging.getLogger("cnnClassifierLogger")
