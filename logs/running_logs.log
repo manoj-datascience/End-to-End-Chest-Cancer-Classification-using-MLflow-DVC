@@ -1,1 +1,7 @@
-[2024-07-17 20:08:06,759: INFO: main: tracking event has been and the information is stored in .log file ]
+[2024-07-18 16:53:33,105: INFO: main: tracking event has been and the information is stored in .log file ]
+[2024-07-18 16:53:33,105: CRITICAL: main: permission error is solved]
+[2024-07-18 18:33:48,732: INFO: main: params.yaml and config.yaml path has got seted in constant constructor file]
+[2024-07-18 18:36:04,641: INFO: main: params.yaml and config.yaml path has got seted in constant constructor file]
+[2024-07-18 18:36:59,606: INFO: main: params.yaml and config.yaml path has got seted in constant constructor file]
+[2024-07-18 18:37:26,307: INFO: main: params.yaml and config.yaml path has got seted in constant constructor file]
+[2024-07-18 18:39:23,861: INFO: main: params.yaml and config.yaml path has got seted in constant constructor file]

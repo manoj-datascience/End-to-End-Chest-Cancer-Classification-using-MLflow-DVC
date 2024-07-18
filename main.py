@@ -1,3 +1,4 @@
 from cnnClassifier import logger
-logger.info("tracking event has been and the information is stored in .log file ")
-logger.debug("permission error is solved")
+from cnnClassifier.constants import * 
+logger.info("params.yaml and config.yaml path has got seted in constant constructor file")
+print(type(CONFIG_FILE_PATH))

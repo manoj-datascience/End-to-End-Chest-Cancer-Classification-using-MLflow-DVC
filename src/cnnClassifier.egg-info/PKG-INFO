@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/manoj-datascience/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
+Author: manoj-datascience
+Author-email: manoj@gmail.com
+Project-URL: Bug Tracker, https://github.com/manoj-datascience/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/issues
+
+# End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
