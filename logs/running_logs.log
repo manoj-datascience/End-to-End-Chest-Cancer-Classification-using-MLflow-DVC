@@ -5,3 +5,36 @@
 [2024-07-18 18:36:59,606: INFO: main: params.yaml and config.yaml path has got seted in constant constructor file]
 [2024-07-18 18:37:26,307: INFO: main: params.yaml and config.yaml path has got seted in constant constructor file]
 [2024-07-18 18:39:23,861: INFO: main: params.yaml and config.yaml path has got seted in constant constructor file]
+[2024-07-19 20:40:02,246: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-19 20:40:02,249: ERROR: main: name 'logger' is not defined]
+Traceback (most recent call last):
+  File "D:\project\entbappy(Bappy Ahmed)\End-to-End-Chest-Cancer-Classification-using-MLflow-DVC\main.py", line 10, in <module>
+    obj.main()
+  File "D:\project\entbappy(Bappy Ahmed)\End-to-End-Chest-Cancer-Classification-using-MLflow-DVC\src\cnnClassifier\pipeline\data_ingestion_pipeline.py", line 12, in main
+    config = ConfigrationManager()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\entbappy(Bappy Ahmed)\End-to-End-Chest-Cancer-Classification-using-MLflow-DVC\src\cnnClassifier\config\configuration.py", line 11, in __init__
+    create_directories([self.config.artifacts_root])
+  File "D:\project\entbappy(Bappy Ahmed)\End-to-End-Chest-Cancer-Classification-using-MLflow-DVC\cancer\Lib\site-packages\ensure\main.py", line 835, in __call__
+    return self.f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\entbappy(Bappy Ahmed)\End-to-End-Chest-Cancer-Classification-using-MLflow-DVC\src\cnnClassifier\utils\common.py", line 24, in create_directories
+    logger.info(f"the file created at: {path}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+[2024-07-19 20:40:40,106: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-19 20:40:40,106: INFO: common: the file created at: artifacts]
+[2024-07-19 20:40:40,106: INFO: common: the file created at: artifacts/data_ingestion]
+[2024-07-19 20:40:40,106: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-19 20:40:53,913: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-19 20:40:54,801: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-19 20:43:57,151: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-19 20:43:57,151: INFO: common: the file created at: artifacts]
+[2024-07-19 20:43:57,162: INFO: common: the file created at: artifacts/data_ingestion]
+[2024-07-19 20:43:57,162: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-19 20:44:04,641: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-19 20:44:05,338: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
